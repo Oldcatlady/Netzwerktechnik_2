@@ -1,0 +1,339 @@
+
+  [
+  {
+    "question": "Was ist ein default VLAN 1?",
+    "type": "mc",
+    "options": [
+      "A) Ein temporäres, rein virtuelles Testnetzwerk ohne aktive Routing-Funktion, das ausschließlich zur herstellerseitigen Qualitätskontrolle dient.",
+      "B) Das Default VLAN 1 ist das Standard-VLAN auf vielen Switches. Alle Geräte gehören automatisch zu diesem VLAN, wenn nichts anderes eingestellt wird. Es wird oft für die erste Einrichtung genutzt.",
+      "C) Ein moderner, drahtloser Übertragungsstandard, der die reibungslose Kommunikation von mobilen IoT-Geräten im Smart Home regelt.",
+      "D) Ein kryptografisches Sicherheitsprotokoll, welches unbefugte Zugriffe auf die administrative Weboberfläche von Routern verhindert."
+    ],
+    "answer": "B",
+    "explanation": "Das Default VLAN 1 ist das ab Werk voreingestellte Standard-VLAN auf fast allen managed Switches. Solange keine individuellen VLAN-Konfigurationen vorgenommen werden, sind alle physischen Ports diesem VLAN 1 zugeordnet, sodass alle angeschlossenen Geräte direkt miteinander kommunizieren können."
+  },
+  {
+    "question": "Was ist ein Medienkonverter?",
+    "type": "mc",
+    "options": [
+      "A) Ein Medienkonverter ist ein Gerät, das zwei unterschiedliche Netzwerkmedien miteinander verbindet. Er wandelt zum Beispiel ein elektrisches Signal aus einem Kupfer-Netzwerkkabel in ein optisches Signal für Glasfaser um und umgekehrt. So können Geräte miteinander kommunizieren, die unterschiedliche Kabeltypen nutzen.",
+      "B) Ein Medienkonverter ist ein Router für Glasfaserverbindungen.",
+      "C) Ein Medienkonverter ist ein Switch zur Aufteilung von Netzwerken.",
+      "D) Ein Medienkonverter ist ein WLAN-Verstärker für große Gebäude."
+    ],
+    "answer": "A",
+    "explanation": "Ein Medienkonverter ist ein Gerät, das zwei unterschiedliche Netzwerkmedien miteinander verbindet. Er wandelt zum Beispiel ein elektrisches Signal aus einem Kupfer-Netzwerkkabel in ein optisches Signal für Glasfaser um und umgekehrt. So können Geräte miteinander kommunizieren, die unterschiedliche Kabeltypen nutzen."
+  },
+  {
+    "question": "Was ist iperf?",
+    "type": "mc",
+    "options": [
+      "A) iperf is ein Betriebssystem für Router.",
+      "B) iperf ist ein Verschlüsselungsprotokoll für WLAN.",
+      "C) iperf ist ein Programm, mit dem man die Geschwindigkeit und Leistung eines Netzwerks messen kann. Es testet zum Beispiel, wie schnell Daten von einem Computer zu einem anderen übertragen werden können und wie stabil die Verbindung ist.",
+      "D) iperf ist ein Kabelstandard für Ethernet."
+    ],
+    "answer": "C",
+    "explanation": "iperf ist ein Programm, mit dem man die Geschwindigkeit und Leistung eines Netzwerks messen kann. Es testet zum Beispiel, wie schnell Daten von einem Computer zu einem anderen übertragen werden können und wie stabil die Verbindung ist."
+  },
+  {
+    "question": "Welche iperf Varianten gibt es?",
+    "type": "mc",
+    "options": [
+      "A) iperfA und iperfB",
+      "B) Es gibt hauptsächlich zwei Varianten: iperf2 und iperf3. iperf3 ist die neuere Version und wurde verbessert, um genauere und stabilere Messergebnisse zu liefern.",
+      "C) iperfLite und iperfPro",
+      "D) iperfNet und iperfTest"
+    ],
+    "answer": "B",
+    "explanation": "Es gibt hauptsächlich zwei Varianten: iperf2 und iperf3. iperf3 ist die neuere Version und wurde verbessert, um genauere und stabilere Messergebnisse zu liefern."
+  },
+  {
+    "question": "Sind unterschiedliche iperf Varianten kompatibel?",
+    "type": "mc",
+    "options": [
+      "A) Ja, sie sind vollständig kompatibel.",
+      "B) Ja, aber nur im WLAN.",
+      "C) Nein, sie funktionieren nur auf demselben Gerät.",
+      "D) iperf2 und iperf3 sind nicht vollständig miteinander kompatibel. Das bedeutet, dass ein iperf2-Client nicht immer problemlos mit einem iperf3-Server zusammenarbeiten kann und umgekehrt."
+    ],
+    "answer": "D",
+    "explanation": "iperf2 und iperf3 sind nicht vollständig miteinander kompatibel. Das bedeutet, dass ein iperf2-Client nicht immer problemlos mit einem iperf3-Server zusammenarbeiten kann und umgekehrt."
+  },
+  {
+    "question": "Wie schaltet man VLAN-Switches zusammen?",
+    "type": "mc",
+    "options": [
+      "A) VLAN-Switches verbindet man über sogenannte Trunk-Ports. Diese Ports übertragen mehrere VLANs gleichzeitig zwischen den Switches.",
+      "B) VLAN-Switches verbindet man über WLAN-Verbindungen miteinander.",
+      "C) VLAN-Switches verbindet man über normale Access-Ports ohne besondere Konfiguration.",
+      "D) VLAN-Switches verbindet man über USB-Kabel zwischen den Geräten."
+    ],
+    "answer": "A",
+    "explanation": "VLAN-Switches verbindet man über sogenannte Trunk-Ports. Diese Ports übertragen mehrere VLANs gleichzeitig zwischen den Switches."
+  },
+  {
+    "question": "Was muss man bei der Zusammenschaltung von VLAN-Switches beachten?",
+    "type": "mc",
+    "options": [
+      "A) Dass beide Switches unterschiedliche VLANs verwenden, damit keine Überschneidung entsteht.",
+      "B) Dass nur ein einziger Switch im gesamten Netzwerk active ist.",
+      "C) Bei der Verbindung von VLAN-Switches muss man darauf achten, dass die VLANs auf beiden Switches gleich konfiguriert sind. Außerdem müssen die Trunk-Ports korrekt eingerichtet sein, damit alle VLANs übertragen werden. Wenn die Einstellungen nicht übereinstimmen, kann es zu Verbindungsproblemen kommen.",
+      "D) Dass die Switches nur über WLAN verbunden werden dürfen."
+    ],
+    "answer": "C",
+    "explanation": "Bei der Verbindung von VLAN-Switches muss man darauf achten, dass die VLANs auf beiden Switches gleich konfiguriert sind. Außerdem müssen die Trunk-Ports korrekt eingerichtet sein, damit alle VLANs übertragen werden. Wenn die Einstellungen nicht übereinstimmen, kann es zu Verbindungsproblemen kommen."
+  },
+  {
+    "question": "Was ist ein Paketizer?",
+    "type": "mc",
+    "options": [
+      "A) Ein Paketizer ist ein Gerät, das WLAN-Signale verstärkt und weiterleitet.",
+      "B) Ein Paketizer ist ein Netzwerkgerät zur IP-Adressvergabe.",
+      "C) Ein Paketizer ist ein Sicherheitsmodul zur Verschlüsselung von Daten.",
+      "D) Ein Paketizer ist eine Funktion oder ein Bauteil in der Netzwerktechnik, das Daten in kleinere Einheiten aufgeteilt, damit sie als Datenpakete über ein Netzwerk übertragen werden können. Diese Pakete enthalten dann die eigentlichen Daten plus zusätzliche Informationen wie Zieladresse und Steuerdaten."
+    ],
+    "answer": "D",
+    "explanation": "Ein Paketizer ist eine Funktion oder ein Bauteil in der Netzwerktechnik, das Daten in kleinere Einheiten aufgeteilt, damit sie als Datenpakete über ein Netzwerk übertragen werden können. Diese Pakete enthalten dann die eigentlichen Daten plus zusätzliche Informationen wie Zieladresse und Steuerdaten."
+  },
+  {
+    "question": "Was ist ein Protokollstapel?",
+    "type": "mc",
+    "options": [
+      "A) Ein Protokollstapel ist ein einzelnes Netzwerkprotokoll für WLAN.",
+      "B) Ein Protokollstapel ist die Gesamtheit mehrerer Netzwerkprotokolle, die zusammenarbeiten, um Daten zu übertragen. Jedes Protokoll hat dabei eine bestimmte Aufgabe, zum Beispiel Adressierung, Transport oder Darstellung der Daten. Ein bekanntes Beispiel ist der TCP/IP-Protokollstapel.",
+      "C) Ein Protokollstapel ist ein physisches Gerät im Netzwerk wie ein Router.",
+      "D) Ein Protokollstapel ist ein Kabeltyp für Ethernet-Verbindungen."
+    ],
+    "answer": "B",
+    "explanation": "Ein Protokollstapel ist die Gesamtheit mehrerer Netzwerkprotokolle, die zusammenarbeiten, um Daten zu übertragen. Jedes Protokoll hat dabei eine bestimmte Aufgabe, zum Beispiel Adressierung, Transport oder Darstellung der Daten. Ein bekanntes Beispiel ist der TCP/IP-Protokollstapel."
+  },
+  {
+    "question": "Was sind Jumbo-Frames?",
+    "type": "mc",
+    "options": [
+      "A) Jumbo-Frames sind kleine Kontrollpakete zur Fehlerprüfung.",
+      "B) Jumbo-Frames sind verschlüsselte Datenpakete für sichere Netzwerke.",
+      "C) Jumbo-Frames sind besonders große Ethernet-Frames, die mehr Daten auf einmal übertragen können als normale Frames. Dadurch kann die Effizienz im Netzwerk steigen, weil weniger einzelne Pakete übertragen werden müssen.",
+      "D) Jumbo-Frames sind WLAN-Signale mit erhöhter Reichweite."
+    ],
+    "answer": "C",
+    "explanation": "Jumbo-Frames sind besonders große Ethernet-Frames, die mehr Daten auf einmal übertragen können als normale Frames. Dadurch kann die Effizienz im Netzwerk steigen, weil weniger einzelne Pakete übertragen werden müssen."
+  },
+  {
+    "question": "Was ist Kollisionserkennung?",
+    "type": "mc",
+    "options": [
+      "A) Kollisionserkennung ist ein Verfahren, bei dem ein Gerät erkennt, dass zwei Datenpakete gleichzeitig im Netzwerk gesendet wurden und sich gegenseitig stören. Das war besonders in älteren Ethernet-Netzwerken wichtig.",
+      "B) Kollisionserkennung ist ein Verfahren zur automatischen IP-Zuweisung im Netzwerk.",
+      "C) Kollisionserkennung ist ein Verfahren zur WLAN-Signalverstärkung.",
+      "D) Kollisionserkennung ist ein Verfahren zur Datenkompression bei Netzwerken."
+    ],
+    "answer": "A",
+    "explanation": "Kollisionserkennung ist ein Verfahren, bei dem ein Gerät erkennt, dass zwei Datenpakete gleichzeitig im Netzwerk gesendet wurden und sich gegenseitig stören. Das war besonders in älteren Ethernet-Netzwerken wichtig."
+  },
+  {
+    "question": "Was ist Kollisionsvermeidung?",
+    "type": "mc",
+    "options": [
+      "A) Kollisionsvermeidung ist ein Verfahren, bei dem Daten nachträglich neu gesendet werden, wenn eine Kollision auftritt.",
+      "B) Kollisionsvermeidung ist ein Verfahren, das nur in Glasfasernetzen genutzt wird.",
+      "C) Kollisionsvermeidung ist ein Verfahren, bei dem versucht wird, Kollisionen schon im Voraus zu verhindern. Geräte prüfen dabei, ob das Netzwerk frei ist, bevor sie Daten senden.",
+      "D) Kollisionsvermeidung ist ein Verfahren zur Verschlüsselung von Netzwerkdaten."
+    ],
+    "answer": "C",
+    "explanation": "Kollisionsvermeidung ist ein Verfahren, bei dem versucht wird, Kollisionen schon im Voraus zu verhindern. Geräte prüfen dabei, ob das Netzwerk frei ist, bevor sie Daten senden."
+  },
+  {
+    "question": "Wofür steht CSMA/CA?",
+    "type": "mc",
+    "options": [
+      "A) CSMA/CA steht für „Carrier Signal Multiple Access / Collision Access“.",
+      "B) CSMA/CA steht für „Carrier Sense Multiple Access / Collision Avoidance“. Es ist ein Verfahren, das Kollisionen im Netzwerk vermeiden soll, bevor sie überhaupt entstehen.",
+      "C) CSMA/CA steht für „Computer System Management / Communication Access“.",
+      "D) CSMA/CA steht für „Central Switching Mode Access / Control Algorithm“."
+    ],
+    "answer": "B",
+    "explanation": "CSMA/CA steht für „Carrier Sense Multiple Access / Collision Avoidance“. Es ist ein Verfahren, das Kollisionen im Netzwerk vermeiden soll, bevor sie überhaupt entstehen."
+  },
+  {
+    "question": "Was ist ein HUB?",
+    "type": "mc",
+    "options": [
+      "A) Ein Hub ist ein intelligenter Switch, der Daten gezielt weiterleitet.",
+      "B) Ein Hub ist ein Router für WLAN-Netze.",
+      "C) Ein Hub ist ein Gerät zur Verschlüsselung von Netzwerkdaten.",
+      "D) Ein Hub ist ein einfaches Netzwerkgerät, das Daten an alle angeschlossenen Geräte gleichzeitig weiterleitet. Er unterscheidet nicht, für wen die Daten bestimmt sind."
+    ],
+    "answer": "D",
+    "explanation": "Ein Hub ist ein einfaches Netzwerkgerät, das Daten an alle angeschlossenen Geräte gleichzeitig weiterleitet. Er unterscheidet nicht, für wen die Daten bestimmt sind."
+  },
+  {
+    "question": "Was bedeutet halb-duplex?",
+    "type": "mc",
+    "options": [
+      "A) Halb-duplex bedeutet, dass Daten zwar in beide Richtungen übertragen werden können, aber nicht gleichzeitig. Es kann also entweder gesendet oder empfangen werden, aber nicht beides zur selben Zeit.",
+      "B) Halb-duplex bedeutet, dass Daten nur in eine Richtung übertragen werden können.",
+      "C) Halb-duplex bedeutet, dass Daten gleichzeitig in beide Richtungen übertragen werden können.",
+      "D) Halb-duplex bedeutet, dass keine Datenübertragung möglich ist."
+    ],
+    "answer": "A",
+    "explanation": "Halb-duplex bedeutet, dass Daten zwar in beide Richtungen übertragen werden können, aber nicht gleichzeitig. Es kann also entweder gesendet oder empfangen werden, aber nicht beides zur selben Zeit."
+  },
+  {
+    "question": "Was bedeutet Feinsicherung?",
+    "type": "mc",
+    "options": [
+      "A) Eine Feinsicherung ist ein Netzwerkfilter für Internetdaten.",
+      "B) Eine Feinsicherung ist ein WLAN-Sicherheitsmodul.",
+      "C) Eine Feinsicherung ist ein Softwareprogramm zur Netzwerküberwachung.",
+      "D) Eine Feinsicherung ist ein kleines Sicherheitselement in elektrischen Geräten. Sie schützt vor zu hohem Strom, indem sie durchbrennt, wenn zu viel Strom fließt, und so das Gerät vor Schäden schützt."
+    ],
+    "answer": "D",
+    "explanation": "Eine Feinsicherung ist ein kleines Sicherheitselement in elektrischen Geräten. Sie schützt vor zu hohem Strom, indem sie durchbrennt, wenn zu viel Strom fließt, und so das Gerät vor Schäden schützt."
+  },
+  {
+    "question": "Wie ist eine SAT-Tabelle aufgebaut?",
+    "type": "mc",
+    "options": [
+      "A) Eine SAT-Tabelle (Switch Address Table) ist eine Tabelle in einem Switch, in der MAC-Adressen gespeichert werden. Sie enthält meist die MAC-Adresse eines Geräts und den zugehörigen Port, an dem dieses Gerät angeschlossen ist. So weiß der Switch, wohin er Datenpakete weiterleiten muss.",
+      "B) Eine SAT-Tabelle besteht aus IP-Adressen und DNS-Namen.",
+      "C) Eine SAT-Tabelle besteht aus WLAN-Kanälen und Signalstärken.",
+      "D) Eine SAT-Tabelle enthält nur Verschlüsselungsschlüssel für Netzwerke."
+    ],
+    "answer": "A",
+    "explanation": "Eine SAT-Tabelle (Switch Address Table) ist eine Tabelle in einem Switch, in der MAC-Adressen gespeichert werden. Sie enthält meist die MAC-Adresse eines Geräts und den zugehörigen Port, an dem dieses Gerät angeschlossen ist."
+  },
+  {
+    "question": "Was ist eine Checksumme?",
+    "type": "mc",
+    "options": [
+      "A) Eine Checksumme ist eine IP-Adresse zur Fehlerkorrektur.",
+      "B) Eine Checksumme ist eine kleine zusätzliche Zahl, die aus den Daten eines Datenpakets berechnet wird. Sie dient dazu, Fehler bei der Übertragung zu erkennen. Wenn sich auch nur ein kleines Bit in den Daten verändert, passt die Checksumme nicht mehr und man erkennt, dass etwas falsch übertragen wurde.",
+      "C) Eine Checksumme ist ein WLAN-Code zur Verbindung von Geräten.",
+      "D) Eine Checksumme ist ein Netzwerkport zur Datenweiterleitung."
+    ],
+    "answer": "B",
+    "explanation": "Eine Checksumme ist eine kleine zusätzliche Zahl, die aus den Daten eines Datenpakets berechnet wird. Sie dient dazu, Fehler bei der Übertragung zu erkennen."
+  },
+  {
+    "question": "Wo kommt eine Checksumme vor?",
+    "type": "mc",
+    "options": [
+      "A) Eine Checksumme kommt nur in WLAN-Netzen vor.",
+      "B) Eine Checksumme kommt nur in Routern vor.",
+      "C) Eine Checksumme kommt nur in Betriebssystemen vor.",
+      "D) Eine Checksumme kommt in vielen Bereichen der Netzwerktechnik und Informatik vor. Sie ist zum Beispiel in Netzwerkpaketen enthalten, etwa im Internet-Protokoll oder im TCP-Header. Auch bei Dateien oder Speicherübertragungen wird sie verwendet, um zu prüfen, ob die Daten korrekt angekommen oder gespeichert worden sind."
+    ],
+    "answer": "D",
+    "explanation": "Eine Checksumme kommt in vielen Bereichen der Netzwerktechnik und Informatik vor. Sie ist zum Beispiel in Netzwerkpaketen enthalten, etwa im Internet-Protokoll oder im TCP-Header. Auch bei Dateien oder Speicherübertragungen wird sie verwendet, um zu prüfen, ob die Daten korrekt angekommen oder gespeichert worden sind."
+  },
+  {
+    "question": "Zu welcher Schicht bzw. welchen Schichten gehört die Netzwerkkarte im OSI-Modell?",
+    "type": "mc",
+    "options": [
+      "A) Schicht 1 und Schicht 2 (Bitübertragungsschicht und Sicherungsschicht)",
+      "B) Nur Schicht 2 (Sicherungsschicht)",
+      "C) Schicht 3 (Vermittlungsschicht)",
+      "D) Schicht 4 (Transportschicht)"
+    ],
+    "answer": "A",
+    "explanation": "Eine Netzwerkkarte arbeitet im OSI-Modell auf zwei Schichten. In Schicht 1 (Bitübertragungsschicht) wandelt sie Daten in elektrische oder optische Signale um. In Schicht 2 (Sicherungsschicht) verarbeitet sie Ethernet-Frames und nutzt die MAC-Adresse zur Kommunikation im lokalen Netzwerk."
+  },
+   {
+    "question": "Wie viele Adern stehen zur Stromübertragung bei einem passiven PoE-Adapter zur Verfügung?",
+    "type": "mc",
+    "options": [
+      "A) Genau zwei Adern (ein einzelnes Adernpaar), die exklusiv für den Pluspol genutzt werden, während der Minuspol über die Kabelabschirmung läuft.",
+      "B) Für die Stromübertragung werden ebenfalls vier Adern (zwei Adernpaare) verwendet.",
+      "C) Exakt vier Adern (zwei Adernpaare), die sich die Last dynamisch mit den hochfrequenten Datensignalen der Netzwerkkarte teilen.",
+      "D) Alle acht Adern (vier Adernpaare), um einen maximalen Querschnitt zu erreichen und Leistungsverluste auf langen Kabelstrecken zu verhindern."
+    ],
+    "answer": "B",
+    "explanation": "Für die Stromübertragung werden bei klassischen passiven PoE-Adaptern ebenfalls vier Adern (zwei Adernpaare) verwendet. Diese sind fest für die Stromversorgung reserviert und stehen nicht für Daten zur Verfügung."
+  },
+  {
+    "question": "Wie hoch ist die Datenübertragungsrate maximal bei einem passiven PoE-Adapter?",
+    "type": "mc",
+    "options": [
+      "A) Maximal 10 Mbit/s, da die hohe Gleichstromspannung auf den benachbarten Adernpaaren stärkere magnetische Interferenzen und Signalfehler verursacht.",
+      "B) Die maximale Datenübertragungsrate liegt in der Regel bei 100 Mbit/s, weil nur ein Teil der Adern für Daten genutzt wird.",
+      "C) Konstant 100 Mbit/s, da der Adapter die Datenpakete vor der Weiterleitung aktiv zwischenspeichert und synchronisiert.",
+      "D) Bis zu 1 Gbit/s, sofern hochwertige Cat.7-Kabel verwendet werden, die eine vollständige physische Abschirmung der einzelnen Adernpaare garantieren."
+    ],
+    "answer": "B",
+    "explanation": "Die maximale Datenübertragungsrate liegt in der Regel bei 100 Mbit/s (Fast Ethernet), weil nur 4 der 8 Adern für Daten genutzt werden. Für Gigabit-Geschwindigkeiten (1 Gbit/s) werden zwingend alle 8 Adern für Daten benötigt."
+  },
+  {
+    "question": "Was ist ein PoE-Switch?",
+    "type": "mc",
+    "options": [
+      "A) Ein spezieller Hardware-Verteiler, der ausschließlich zur Kopplung von Netzwerkgeräten dient, die keine eigene logische IP-Adresse besitzen.",
+      "B) Ein zentraler WLAN-Verstärker, der Funksignale im Gebäude einsammelt und über das Stromnetz an den Hauptrouter weiterleitet.",
+      "C) Ein PoE-Switch ist ein Netzwerk-Switch, der angeschlossene Geräte direkt über das Netzwerkkabel mit Strom versorgen kann. Im Gegensatz zu passiven Adaptern erkennt er automatisch, ob ein Gerät PoE unterstützt, und liefert nur dann Strom.",
+      "D) Ein optischer Hochleistungs-Switch, welcher für den reinen Betrieb von Glasfaserverbindungen in modernen Rechenzentren konzipiert ist."
+    ],
+    "answer": "C",
+    "explanation": "Ein PoE-Switch ist ein Netzwerk-Switch, der angeschlossene Geräte direkt über das Netzwerkkabel mit Strom versorgen kann. Im Gegensatz zu passiven Adaptern erkennt er automatisch mittels eines Prüfsignals, ob ein Gerät PoE unterstützt, und liefert nur dann Strom."
+  },
+   {
+    "question": "Welche Teile hat eine IP-Adresse?",
+    "type": "mc",
+    "options": [
+      "A) Einen Hardwareteil zur Identifikation des Herstellers und einen Softwareteil für das installierte Betriebssystem.",
+      "B) Einen Senderteil für ausgehende Datenströme und einen separaten Empfängerteil für eingehende Netzwerkpakete.",
+      "C) Eine IP-Adresse besteht aus einem Netzwerkanteil und einem Geräteanteil (Hostanteil). Der Netzwerkanteil zeigt das Netz, der Hostanteil identifiziert das einzelne Gerät.",
+      "D) Einen öffentlichen Verschlüsselungsteil und einen privaten Kontrollteil, die flexibel ohne feste Struktur wechseln."
+    ],
+    "answer": "C",
+    "explanation": "Eine IP-Adresse besteht aus einem Netzwerkanteil und einem Geräteanteil, auch Hostanteil genannt. Der Netzwerkanteil zeigt, zu welchem Netzwerk das Gerät gehört, und der Hostanteil identifiziert das einzelne Gerät innerhalb dieses Netzwerks."
+  },
+  {
+    "question": "Was ist ein Ethernet-Frame?",
+    "type": "mc",
+    "options": [
+      "A) Ein Ethernet-Frame ist ein Datenpaket, das in einem kabelgebundenen Netzwerk übertragen wird. Es enthält unter anderem MAC-Adressen von Absender und Empfänger sowie Nutzdaten.",
+      "B) Ein zentrales Steuerprotokoll, das für die automatische Vergabe von IP-Adressen und DNS-Servern im lokalen Netz zuständig ist.",
+      "C) Die mechanische Halterung an einem Serverschrank, in die Switches und Router flächenbündig eingeschraubt werden.",
+      "D) Eine kryptografische Sicherheitsschicht, die ausschließlich für die Verschlüsselung von Daten in modernen WLAN-Netzen sorgt."
+    ],
+    "answer": "A",
+    "explanation": "Ein Ethernet-Frame ist ein Datenpaket, das in einem kabelgebundenen Netzwerk übertragen wird. Es enthält unter anderem die MAC-Adresse des Absenders und des Empfängers sowie die eigentlichen Nutzdaten."
+  },
+  {
+    "question": "Was ist ein Port?",
+    "type": "mc",
+    "options": [
+      "A) Ein softwarebasiertes Diagnosewerkzeug, das zur Echtzeit-Analyse von unerwünschtem Datenverkehr auf der Firewall dient.",
+      "B) Ein spezieller Typ von Glasfaserkabeln, der für Verbindungen mit extrem hohen Datenraten in Rechenzentren genutzt wird.",
+      "C) Eine unveränderliche, physikalische IP-Adresse, die einem Gerät fest zugewiesen ist und im Internet nicht geroutet werden kann.",
+      "D) Ein Port kann eine physische Anschlussstelle an einem Gerät (z. B. am Switch) oder eine logische Nummer in der Software sein, die angibt, für welchen Dienst Daten bestimmt sind."
+    ],
+    "answer": "D",
+    "explanation": "Ein Port kann zwei Bedeutungen haben. Zum einen ist es eine physische Anschlussstelle an einem Gerät, zum Beispiel an einem Switch, an die man ein Netzwerkkabel anschließt. Zum allen anderen ist ein Port eine logische Nummer in der Netzwerktechnik, die angibt, für welchen Dienst Daten bestimmt sind, zum Beispiel für Webseiten oder E-Mails."
+  },
+  {
+    "question": "Wie spielen Ports, IP-Adressen und Ethernet-Frames zusammen?",
+    "type": "mc",
+    "options": [
+      "A) Sie arbeiten völlig unabhängig voneinander auf verschiedenen Kontinenten und werden erst im Internet-Backbone über Satelliten synchronisiert.",
+      "B) Die IP-Adresse bringt das Paket zum richtigen Gerät, im lokalen Netz wird es in einen Ethernet-Frame mit MAC-Adressen verpackt, und der Port sorgt dafür, dass die Daten im richtigen Programm landen.",
+      "C) Sie werden ausschließlich im WLAN verwendet, um die Funkkanäle zu trennen, während kabelgebundene Netzwerke diese drei Technologien gar nicht benötigen.",
+      "D) Der Ethernet-Frame ersetzt die IP-Adresse und den Port vollständig, sobald ein Datenpaket die lokale Netzwerkkarte verlässt."
+    ],
+    "answer": "B",
+    "explanation": "Wenn Daten in einem Netzwerk verschickt werden, arbeiten diese drei Dinge zusammen. Die IP-Adresse sorgt dafür, dass das Datenpaket zum richtigen Gerät im Netzwerk oder Internet gelangt. Innerhalb eines lokalen Netzwerks wird das Paket dann in einen sogenannten Ethernet-Frame verpackt, der die MAC-Adressen von Absender und Empfänger enthält. Der Port sorgt schließlich dafür, dass die Daten im richtigen Programm ankommen, zum Beispiel im Browser oder bei einem E-Mail-Programm."
+  },
+  {
+    "question": "Was bedeutet der Buchstabe “F” in einer IP-Adresse?",
+    "type": "mc",
+    "options": [
+      "A) Der Buchstabe „F“ kommt in IPv4-Adressen nicht vor. Wenn man ein „F“ sieht, handelt es sich meist um das Hexadezimalsystem (z. B. bei MAC- oder IPv6-Adressen). Dort steht es für den Wert 15.",
+      "B) Er signalisiert einen kritischen Routing-Fehler im Netzwerkprotokoll, wodurch das Paket sofort vom nächsten Switch gelöscht wird.",
+      "C) Er dient als wichtiges Steuerzeichen in IPv4-Standardadressen, um den Beginn des geschützten Hostanteils zu markieren.",
+      "D) Er zeigt den Endgeräten an, dass die Verbindung über ein gesichertes VPN-Protokoll transportiert wird und verschlüsselt ist."
+    ],
+    "answer": "A",
+    "explanation": "Der Buchstabe „F“ kommt in einer normalen IPv4-Adresse eigentlich nicht vor, weil diese nur aus Zahlen besteht. Wenn man ein „F“ sieht, handelt es sich meistens um eine Darstellung im Hexadezimalsystem, zum Beispiel bei MAC-Adressen oder bei IPv6-Adressen. Dort steht „F“ für den Zahlenwert 15."
+  }
+]
